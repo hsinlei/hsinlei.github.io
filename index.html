@@ -14,10 +14,12 @@
     <link href="css/3-col-portfolio.css" rel="stylesheet">
 
   </head>
-  <!-- TODO: add back to the top -->
-  <a href="#"></a>
   
   <style>
+    .tag {
+      font-style: italic;
+      font-color: #87CEFA;
+    }
     .section-header{
       font-weight: bold; 
       font-size: 1.5em;
@@ -25,31 +27,32 @@
     }
     .image-childSafe{
       display: block;
-      margin: 0 auto;
-      height: 220px; 
-      width: 210px; 
+      margin: 5 auto;
+      height: 200px; 
+      width: 340px; 
     } 
 
     .image-fermiBot{
-      height: 220px;
-      width: 350px;
+      margin-left: 35px; 
+      height: 200px;
+      width: 280px;
     }
 
     .image-webo{
-      height: 220px; 
-      width: 350px; 
+      height: 200px; 
+      /*width: 350px; */
     }
 
     .image-relHero {
       display: block;
       margin: 0 auto;
-      height: 210px; 
-      width: 330px; 
+/*      height: 210px; 
+      width: 330px; */
     }
 
     .img-wongs{
-      height: 220px; 
-      width: 350px; 
+      height: 200px; 
+      /*width: 350px; */
     }
 
     .mynavbar {
@@ -118,46 +121,57 @@
           </ul>
       </div>
 
+      <!-- TODO: add a work section that features Work Experience -->
       <div class="section-header"> Hackathons
         <!-- TODO: add a see more link -->
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100 styled-card">
-            <a href="#"><img class="card-img-top image-childSafe" 
+            <a href="https://devpost.com/software/childsafe-zwu8qm"><img class="card-img-top image-childSafe" 
               src="img/childsafe.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="https://devpost.com/software/childsafe-zwu8qm">ChildSafe</a>
               </h4>
-              <p class="card-text">ChildSafe notifies parents when children leave the safety zone so that preventive action can take place immediately. #YHack2017</p>
+              <p class="card-text">ChildSafe notifies parents when children leave the safety zone so that preventive action can take place immediately. </p>
+              <div class="tag">
+                #YHack #iOS #Swift #Security
+                <!-- YHack2017 | iOS | Swift | Security -->
+              </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100 styled-card">
-            <a href="#"><img class="card-img-top image-fermiBot" src="img/fermiBot.jpg" alt=""></a>
+            <a href="https://devpost.com/software/fermi-bot-lz17p0"><img class="card-img-top image-fermiBot" src="img/fermiBot.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="https://devpost.com/software/fermi-bot-lz17p0">Fermi Bot</a>
               </h4>
-              <p class="card-text">Fermi Bot is an intelligent learning assistant that answers your question and tests your knowledge. #Hack@Brown2017</p>
+              <p class="card-text">Fermi Bot is an intelligent assistant that answers your questions and tests your knowledge on Messenger chatbot.</p>
+              <div class="tag">
+                #Hack@Brown #Chatbot #Python #Edu 
+              </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100 styled-card">
-            <a href="#"><img class="card-img-top image-webo" src="img/webo.jpg" alt=""></a>
+            <a href="https://devpost.com/software/webo-nkbf95"><img class="card-img-top image-webo" src="img/webo.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="https://devpost.com/software/webo-nkbf95">Webo</a>
               </h4>
-              <p class="card-text">We are optimizing human-technology experiences by designing robots with distinct personality and social awareness. #MITHackingArts2016</p>
+              <p class="card-text">We are optimizing human computer interaction by designing robots with personality and social awareness. </p>
+              <div class="tag">
+                #MITHackingArts #JavaScript #HCI 
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="section-header"> Class Projects
+      <div class="section-header"> UI/UX Design
         <!-- TODO: 1. add a see more link
                    2. how to differentiate code from design -->
       </div>
@@ -165,23 +179,29 @@
   
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100 styled-card">
-            <a href="#"><img class="card-img-top image-relHero " src="img/relHero.png" alt=""></a>
+            <a href="file/IterativeDesign.pdf" ><img class="card-img-top image-relHero " src="img/relHero.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="file/IterativeDesign.pdf">Prototype: </br> Relationships Hero</a>
               </h4>
-              <p class="card-text">Relationships Hero is an app that provides live chat, forums, and expert support to solve relationships problems. Check out our <a href="https://www.figma.com/file/VkmnA0sd1QH1QPVsexe07Ujz/Relationships-Hero">Prototype</a> on Figma. (Inspired by <a href="https://relationshiphero.com">Realtionships Hero</a>)</p>
+              <p class="card-text">Relationships Hero is an app that provides live chat, forums, and expert support to solve relationships problems. Check out our <a href="https://www.figma.com/file/VkmnA0sd1QH1QPVsexe07Ujz/Relationships-Hero">Prototype</a> on Figma.</p>
+              <div class="tag">
+                #iOS #Figma #Social 
+              </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100 styled-card">
-            <a href="#"><img class="card-img-top img-wongs" src="img/wongs.png" alt=""></a>
+            <a href="file/responsiveRedesign.pdf"><img class="card-img-top img-wongs" src="img/wongs.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Redesign: </br> Wong's Kitchen</a>
+                <a href="file/responsiveRedesign.pdf">Redesign: </br> Wong's Kitchen</a>
               </h4>
-              <p class="card-text">Redesign of <a href="https://wongskitchen02906.com">Wong's Kitchen</a>, the popular Asian Fusion on Brown Campus.</p>
+              <p class="card-text">As a loyal customer of <a href="https://wongskitchen02906.com">Wong's Kitchen</a>, I decided to create a vibrant website to showcase the popular Asian Fusion on Brown Campus.</p>
+              <div class="tag">
+                #Web #HTML/CSS #Food 
+              </div>
             </div>
           </div>
         </div>
